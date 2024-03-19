@@ -1,0 +1,11 @@
+body {
+  background-color: rgb(48, 65, 116);
+  color: #fff;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 50px 50px;
+  grid-template-rows: 50px 50px;
+  grid-auto-rows: 50px;
+}
