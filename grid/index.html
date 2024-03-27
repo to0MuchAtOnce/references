@@ -7,8 +7,8 @@
     <title>Grid</title>
   </head>
   <body>
-    <h1>Grid</h1>
-    <div class="container">
+    <h2>Basic grid of items</h2>
+    <div class="first-container">
       <div>Item 1</div>
       <div>Item 2</div>
       <div>Item 3</div>
@@ -16,6 +16,43 @@
       <div>Item 5</div>
       <div>Item 6</div>
       <div>Item 7</div>
+    </div>
+
+    <h2>Grid with 3 columns & 3 rows</h2>
+
+    <div class="second-container">
+      <div class="item first-row">A</div>
+      <div class="item first-row">B</div>
+      <div class="item first-row last-column">C</div>
+      <div class="item">D</div>
+      <div class="item">E</div>
+      <div class="item last-column">F</div>
+      <div class="item">G</div>
+      <div class="item">H</div>
+      <div class="item last-column">I</div>
+    </div>
+    <p class="text">
+      By default, each child element of a grid container will occupy one cell.
+      In the example above, we have 9 cells in our grid (3 rows x 3 columns),
+      each with one automatically positioned child element inside. The element
+      marked with the letter “A” is occupying a cell that lies in row track 1
+      (between row grid lines 1 and 2) and column track 1 (between column grid
+      lines 1 and 2). The item marked with the letter “H” is in a cell at row
+      track 3 (between row grid lines 3 and 4) and column track 2 (between
+      column grid lines 2 and 3).
+    </p>
+
+    <h2>Positioning</h2>
+    <p class="text">
+      To get a feel for how items can be positioned we will create a mock floor
+      plan for an apartment.
+    </p>
+    <div class="third-container">
+      <div class="room" id="living-room">Living Room</div>
+      <div class="room" id="kitchen">Kitchen</div>
+      <div class="room" id="bedroom">Bedroom</div>
+      <div class="room" id="bathroom">Bathroom</div>
+      <div class="room" id="closet">Closet</div>
     </div>
   </body>
 </html>
